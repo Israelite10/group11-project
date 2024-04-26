@@ -403,11 +403,37 @@ span p {
 }
 .text1{
   color: black;
-  font-size: 25px;
+  font-size: 23px;
+  padding-left: 90px;
 }
 
 .trending_container{
   margin-right: 100px;
   margin-left: 100px;
   margin-top: 50px;
+}
+
+.img_tour{
+  width: 120px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.img-text{
+ align-items: start;
+ font-size: 15px;
+ padding-top: 8px;
+}
+
+.text_tour{
+  font-size: 13px;
+  color: black;
+  padding-top: 3px;
+}
+
+.img_grid{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin-left: 90px;
 }
