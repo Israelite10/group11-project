@@ -234,3 +234,113 @@ span p {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.pyramid {
+  background-image: url(pyramid.png);
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 220px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+
+  > p {
+    width: 300px;
+    padding-top: 20px;
+    color: rgb(234, 234, 234);
+  }
+  > h4 {
+    margin-left: 20px;
+    padding-bottom: 10px;
+    color: white;
+  }
+}
+.water {
+  background-image: url(water.png);
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 220px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  margin-right: 20px;
+
+  > p {
+    width: 300px;
+    padding-top: 20px;
+    color: rgb(234, 234, 234);
+  }
+  > h4 {
+    margin-left: 20px;
+    padding-bottom: 10px;
+    color: white;
+  }
+}
+
+.ocean-sky {
+  background-image: url(ocean-sky.png);
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 230px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  padding: 20px;
+
+  > p {
+    /* padding-top: 10px; */
+    color: rgb(234, 234, 234);
+    text-align: justify;
+  }
+  > h4 {
+    margin-left: 5px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 20px;
+  }
+}
+
+.cover {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 70px;
+}
+.cover button {
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: white;
+  background-color: white;
+  margin-left: 20px;
+  outline: none;
+}
+
+.section {
+  background-color: rgb(255, 233, 224);
+  padding-top: 100px;
+  padding-bottom: 40px;
+  padding-left: 17em;
+
+  > h4 {
+    padding-bottom: 30px;
+    font-size: 20;
+  }
+}
+.section > p {
+  width: 430px;
+  color: black;
+  text-align: justify;
+  line-height: 1.5;
+}
+.section button {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: coral;
+  border-color: coral;
+  color: white;
+  border: none;
+}
