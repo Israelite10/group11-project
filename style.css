@@ -393,7 +393,7 @@ span p {
   font-size: 14px;
   color: coral;
   background: rgba(235, 102, 43, 0.05);
-  padding: 14px;
+  padding: 20 px;
   border-radius: 50%; /* For a circular shape */
   /* Fine style shadow */
 }
