@@ -245,7 +245,7 @@ span p {
 .flex {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid rgb(228, 228, 228);
+  /* border-top: 1px solid rgb(228, 228, 228); */
   padding-top: 20px;
   margin-left: 10px;
   margin-right: 15px;
@@ -429,6 +429,7 @@ span p {
   margin-right: 100px;
   margin-left: 100px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .img_tour {
@@ -454,4 +455,46 @@ span p {
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
   margin-left: 90px;
+}
+
+.choose_tour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(235, 102, 43, 0.05);
+  margin-left: 110px;
+  margin-right: 110px;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.choose_text1 {
+  font-size: 24px;
+  font-weight: 800;
+  width: 200px;
+}
+
+.choose_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: coral;
+  padding: 14px;
+}
+
+.choose_text2 {
+  font-size: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.choose_text3 {
+  width: 350px;
+}
+.choose-img-container {
+  border-radius: 20px;
+  width: 400px;
+  margin-left: 5%;
 }
