@@ -376,8 +376,8 @@ span p {
   color: coral;
   background: rgba(235, 102, 43, 0.05);
   padding: 14px;
-  border-radius: 50%; /* For a circular shape */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Fine style shadow */
+  border-radius: 50%; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .icon_grid {
@@ -411,6 +411,7 @@ span p {
   margin-right: 100px;
   margin-left: 100px;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .img_tour{
@@ -437,3 +438,41 @@ span p {
   gap: 10px;
   margin-left: 90px;
 }
+
+.choose_tour{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:rgba(235, 102, 43, 0.05) ;
+  margin-left: 110px;
+  margin-right: 110px;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.choose_text1{
+  font-size: 24px;
+  font-weight: 800;
+  width: 200px;
+}
+
+.choose_icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: coral; 
+  padding: 14px;
+}
+
+.choose_text2{
+  font-size: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.choose_text3{
+  width: 300px;
+}
+
